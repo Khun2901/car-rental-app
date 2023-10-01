@@ -3,7 +3,7 @@
 import { useReducer } from "react"
 import ProductCard from "./ProductCard"
 
-export default function CarPanel() {
+export default function CardPanel() {
     // Reducer Function
     const compareReducer = (compareList: Set<string>, action: {type: string, carName: string}) => {
         switch(action.type) {
