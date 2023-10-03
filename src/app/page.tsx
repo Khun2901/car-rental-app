@@ -1,13 +1,12 @@
-import Image from 'next/image'
 import Banner from '@/components/Banner'
-import ProductCard from '@/components/ProductCard'
-import CardPanel from '@/components/CardPanel'
+import TravelCard from '@/components/TravelCard'
 
 export default function Home() {
   return (
     <main>
       <title>Car Rental Demo</title>
         <Banner/>
+        <TravelCard/>
     </main>
   )
 }
