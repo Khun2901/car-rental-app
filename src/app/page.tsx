@@ -6,7 +6,7 @@ export default function Home() {
     <main>
       <title>Car Rental Demo</title>
         <Banner/>
-        <TravelCard/>
+        <TravelCard/> 
     </main>
   )
 }
