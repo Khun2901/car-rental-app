@@ -19,7 +19,7 @@ export default function VlogPlayer({vdoSrc, isPlaying}: {vdoSrc: string, isPlayi
         }
     }, [isPlaying])
 
-    useWindowListener('resize', (e)=>{ alert('Window width is ' + (e.target as Window).innerWidth) })
+    // useWindowListener('resize', (e)=>{ alert('Window width is ' + (e.target as Window).innerWidth) })
 
     return (
         <video className="w-[40%]" src={vdoSrc} ref={vdoRef} controls loop muted /> 
