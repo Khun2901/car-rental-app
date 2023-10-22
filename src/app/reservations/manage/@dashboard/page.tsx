@@ -13,7 +13,7 @@ export default async function DashboardPage() {
     return (
         <main className="bg-slate-100 m-5 p-5">
             <div className="text-2xl">{profile.data.name}</div>
-            <table className="table-auto border-separate border-spacing-2"><tbody>
+            <table className="w-full table-auto border-separate border-spacing-2"><tbody>
                 <tr><td>Email: </td><td>{profile.data.email}</td></tr>
                 <tr><td>Tel: </td><td>{profile.data.tel}</td></tr>
                 <tr><td>Created At: </td><td>{createdAt.toString()}</td></tr>

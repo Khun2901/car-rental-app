@@ -12,7 +12,7 @@ export default function Banner() {
     const router = useRouter()
 
     const { data: session } = useSession()
-    console.log(session?.user.token)
+    console.log(session?.user)
 
     return (
         <div className={styles.banner} onClick={() => {setIndex(index+1)}}>
